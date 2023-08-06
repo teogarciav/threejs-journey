@@ -17,4 +17,11 @@ const sizes = {
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height)
 scene.add(camera)
 
+//Renderer
+const canvas = document.querySelector('canvas.webgl')
+const renderer = new THREE.WebGLRenderer({
+    canvas: canvas
+})
+renderer.setSize(sizes.width, sizes.height)
 
+renderer.render(scene, camera)
