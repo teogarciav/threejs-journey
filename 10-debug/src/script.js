@@ -39,8 +39,6 @@ gui
 gui
     .add(mesh.material, 'wireframe')
 
-gui.addColor(mesh.material, 'color')
-
 
 
 /**
