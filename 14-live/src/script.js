@@ -38,7 +38,7 @@ fontLoader.load(
 
         // Text
         const textGeometry = new TextGeometry(
-            'Hello Three.js',
+            'Hello Teo.js',
             {
                 font: font,
                 size: 0.5,
